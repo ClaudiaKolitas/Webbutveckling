@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML form and tabele</title>
+    <style>
+        table, th,td{
+            Border: 1px solid black; 
+        }
+    </style>
+</head>
+<body>
+   <h2>HTML Forms</h2> 
+   <form>
+       <label for="fname">Firstname</label> <br>
+       <input type="Text" id="fname" name="fname" value="Förnamn"> <br><br>
+       <label for="Iname">Efternamn</label><br>
+       <input type="text" id="Iname" value="Surname"><br><br>
+       <input type="Submit" value="Submit>"
+    </form>
+    <h2> HTML form med fieldset och legend</h2>
+    <fieldset>
+<legend> Ditt meddelande: </legend>
+<form>
+
+        <label for="fname">Firstname</label> <br>
+        <input type="Text" id="fname" name="fname" value="Förnamn"> <br><br>
+        <label for="Iname">Efternamn</label><br>
+        <input type="text" id="Iname" value="Surname"><br><br>
+        <input type="Submit" value="Submit>"
+ </form>
+    </fieldset>
+
+    <h2> Textarea- input fält som du kan ändra storlek på</h2>
+    <label for="textbody">meddelande</label><br>
+    <textarea name="txtbody" id="textbody" cols="10 rows="30"></textarea>
+
+    <h2> Input fält med datum </h2>
+    <label for="date">Skriv datum</label>
+    <input type="data" name="date" id="date" min="2022-01-13">
+    <button>Skicka</button>
+
+    <h2>Radio knappar</h2>
+    <form>
+        <input type="radio" id="blue" name="color" value="blue">
+        <label for="blue">Blå</label>
+
+        <input type="radio" id="Red" name="color" value="red">
+        <label for="red">Röd</label>
+
+        <input type="radio" id="green" name="color" value="green">
+        <label for="green">Grön</label>
+    </form>
+
+    <form>
+        <p>Välj språk: </p>
+        <input type="checkbox" id="HTML" name="lang" value="HTML">
+        <label for="HTML">HTML</label><br>
+
+        <input type="checkbox" id="CSS" name="lang" value="CSS">
+        <label for="HTML">CSS</label><br>
+
+        <input type="checkbox" id="JAVASCRIPT" name="lang" value="JACASCRIPT">
+        <label for="HTML">JAVASCRIPT</label><br>
+        <input type="Submit" value="Submit"><br>
+    </form>
+
+    <h2>Dropdown meny med select och option</h2>
+    <form>
+        <label for="fruit"> Välj en frukt:</label>
+        <select name="fruit" id="fruit">
+        <option value="apple">äpple</option>
+        <option value="banan">banan</option>
+        <option value="orange">orange</option>
+        <option value="kiwi">kiwi</option>
+        </select>
+        <input type="Submit" value="Submit">
+    </form>
+
+    <h2>En tabell- inern styling längts upp </h2>
+    <table>
+        <tr>
+            <th>Superhero</th>
+            <th>Adress</th>
+            <th>Country</th>
+        </tr>
+        <tr>
+            <td>Captain America</td>
+            <td>Captain America</td>
+            <td>Captain America</td>
+        </tr>
+        
+        <tr>
+            <td>Space</td>
+            <td>Captain marvel</td>
+            <td>Universery</td>
+        </tr>
+        
+        <tr>
+            <td>Captain America</td>
+            <td>Captain America</td>
+            <td>Captain America</td>
+        </tr>
+        
+        <tr>
+            <td>Captain America</td>
+            <td>Captain America</td>
+            <td>Captain America</td>
+        </tr>  
+    </table>
+
+</body>
+</html>
