@@ -1,8 +1,12 @@
+*{
+  box-sizing: border-box;
+}
 html {
   height: 700px;
 }
 body {
-  height: auto;
+  margin:0;
+  font-family: Arial, Helvetica, sans-serif;
 }
 body.home-page {
   background: url("images/quaritsch-photography-3xQ65cknLPk-unsplash.jpg")
@@ -26,22 +30,15 @@ body.home-page {
   padding-bottom: 14px;
   text-align: center;
 }
-.box {
-  margin-left: auto;
-  margin-right: auto;
-  width: 1024px;
-  padding-top: 14px;
-  padding-bottom: 14px;
-}
 .box1 {
   margin-left: auto;
   margin-right: auto;
   width: 1024px;
-  padding-top: 5px;
-  padding-bottom: 5px;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
-header {
+Header {
   height: 110px;
   text-align: center;
 }
@@ -49,8 +46,9 @@ header {
   margin-left: auto;
   margin-right: auto;
   width: 1024px;
-  padding-top: 14px;
-  padding-bottom: 14px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  
 }
 h1 {
   font-size: 60px;
@@ -62,17 +60,10 @@ h2 {
   text-align: left;
   padding-left: 350px;
 }
-.about {
-  border-radius: 50px;
-  padding-left: 300px;
+.h3{
+  font-size: small;
 }
-.ommig {
-  float: right;
-}
-p {
-  font-size: 30px;
-  font-family: Arial, Helvetica, sans-serif;
-}
+
 nav {
   text-align: center;
   padding-top: 14px;
@@ -81,12 +72,12 @@ nav {
   padding-right: 40px;
 }
 
-main {
+.main {
   height: 400px;
   text-align: center;
-  padding-top: 80px;
-  padding-left: 240px;
-  padding-right: 240px;
+  padding-top: 100px;
+  padding-left: 300px;
+  padding-right: 300px;
 }
 
 footer {
@@ -95,27 +86,27 @@ footer {
   padding-bottom: 12px;
 }
 
-.box {
+.box1 {
   margin-left: auto;
   margin-right: auto;
   width: 1024px;
 }
 
 a {
-  color: black;
+  color: darkslategray;
   font-family: Arial, Helvetica, sans-serif;
   text-decoration: none;
 }
 
-nav a {
+nav,a {
   text-decoration: none;
   font-size: 16px;
   padding-left: 30px;
-  padding-right: 40px;
+  padding-right: 30px;
 }
 
 footer p {
-  font-size: 10px;
+  font-size: 15px;
   text-align: center;
   color: rgb(95, 93, 93);
 }
@@ -127,3 +118,40 @@ footer p {
   background-repeat: no-repeat;
   background-size: 1000px 500px;
 }
+
+.profil{
+  display:flex;
+  font-size: small;
+}
+
+.rad1{
+  flex:1;
+  padding:10px;
+  background-color: white;
+  border-right: 2px solid white;
+  
+}
+.rad2{
+  flex: 1;
+  padding: 10px;
+  background-color: white;
+  border-right: 3px solid darkslategray;
+
+}
+.rad3{
+  flex: 1;
+  padding: 30px;
+  padding-bottom: 40px;
+  background-color: white;
+  font-size: 15px;
+  border-right: 3px solid darkslategray;
+  border-bottom: 3px solid darkslategray;
+  border-top: 3px solid darkslategray;
+}
+.rad4{
+  flex: 1;
+  padding: 10px;
+  background-color:white;
+  border-right: 2px solid;
+}
+
