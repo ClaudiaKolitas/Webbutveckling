@@ -128,12 +128,6 @@ a {
 }
 
 
-footer p {
-  font-size: 15px;
-  text-align: center;
-  color: rgb(95, 93, 93);
-}
-
 .id1 {
   border: 2px solid black;
   padding: 25px;
@@ -179,4 +173,10 @@ footer p {
 img {
   border-radius: 50%;
   border: 3px solid rgb(255, 255, 255);
+}
+
+.footer1{
+  background-color: darkslategray;
+  padding:10px;
+  text-align: center;
 }
