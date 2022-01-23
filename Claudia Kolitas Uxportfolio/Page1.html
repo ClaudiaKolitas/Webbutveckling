@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <!--- Detta visar vilket typ av dokument som visas (HTML) Grundstrukturen-->
 <html lang="en">
-    <!-- allt inne håll måste vara inom html elementen och språket är engelska-->
+  <!-- allt inne håll måste vara inom html elementen och språket är engelska-->
   <head>
- <!-- innehåller metadata om sidan, t.ex. sidonamn.-->
+    <!-- innehåller metadata om sidan, t.ex. sidonamn.-->
     <meta charset="UTF-8" />
     <!-- så vi kan använda oss utav bokstäver, 8= 8bitar-->
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -22,143 +22,151 @@
 
     <body class="other-page">
       <!-- bodyklass för att kunna skapa bakgrund på sidan därav en bodyklass-->
-    <div class="navBar">
-       <!-- class=" är de namnet man skapar, för att anropa det i css, och ändra utseende, plats osv."-->
-      <a class="topbar" href="index.html">Home</a>
-      <!-- a= typ av element, href=är för att kunna länka," länken till home", namnet som visas på hemsidan så man kan trycka för att navigeras, </a> är slut taggen för att stänga elemenet -->
-      <a href="page1.html">About</a>
-       <!-- a= typ av element, href=är för att kunna länka," här är länken till about", namnet som visas på hemsidan så man kan trycka för att navigeras, </a> är slut taggen för att stänga elemenet -->
-      <a href="page2.html">Work</a>
-      <!-- a= typ av element, href=är för att kunna länka," här är länken till work", namnet som visas på hemsidan så man kan trycka för att navigeras, </a> är slut taggen för att stänga elemenet -->
-      <a href="mailto:Claudia.Kolitas@chasacademy.se?Subject=Portfolio"
-        >Contact</a><!-- för att skapa en länk till mitt mailkonto, så man kan mejla mig med en slut tagg</a> -->
-      <a href="#">Linkedin</a>
-      <a href="#">Instagram</a>
-    </div>
-    <header> 
-    <!-- start allt som ska vara i sidhuvudet-->
-    </header>
-     <!-- stäng allt som ska vara i sidhuvudet-->
-    <section>
-      <!-- start grupperar samman en del av dokumentet-->
+      <div class="navBar">
+        <!-- class=" är de namnet man skapar, för att anropa det i css, och ändra utseende, plats osv."-->
+        <a class="topbar" href="index.html">Home</a>
+        <!-- a= typ av element, href=är för att kunna länka," länken till home", namnet som visas på hemsidan så man kan trycka för att navigeras, </a> är slut taggen för att stänga elemenet -->
+        <a href="page1.html">About</a>
+        <!-- a= typ av element, href=är för att kunna länka," här är länken till about", namnet som visas på hemsidan så man kan trycka för att navigeras, </a> är slut taggen för att stänga elemenet -->
+        <a href="page2.html">Work</a>
+        <!-- a= typ av element, href=är för att kunna länka," här är länken till work", namnet som visas på hemsidan så man kan trycka för att navigeras, </a> är slut taggen för att stänga elemenet -->
+        <a href="mailto:Claudia.Kolitas@chasacademy.se?Subject=Portfolio"
+          >Contact</a
+        ><!-- för att skapa en länk till mitt mailkonto, så man kan mejla mig med en slut tagg</a> -->
+        <a href="#">Linkedin</a>
+        <a href="#">Instagram</a>
+      </div>
+      <header>
+        <!-- start allt som ska vara i sidhuvudet-->
+      </header>
+      <!-- stäng allt som ska vara i sidhuvudet-->
+      <section>
+        <!-- start grupperar samman en del av dokumentet-->
+        <br />
+        <!-- break, infogar radbryte-->
+        <div class="profil">
+          <!-- klass för att skapa flexbox-->
+          <div class="rad1">
+            <!-- klass för de de olika boxarna detta är box1 som man sen anropar i css för positionering och färg-->
+          </div>
+          <!-- sluttagg för box 1-->
+          <div class="rad2">
+            <!-- klass för de de olika boxarna detta är box2 som man sen anropar i css för positionering och färg-->
+            <!--- start img tagg för att kunna placera en bild inom boxen samt använda sig av en ram och beskära bilden rund i css-->
+            <img
+              src="images/38875558_10156749279673130_3733047155477184512_n.jpg"
+              alt="Bild på Claudia"
+              style="width: 300px"
+            />
+            <!-- slut tagg för bilden-->
+          </div>
+          <!-- sluttagg för box2-->
+          <div class="rad3">
+            <!-- start klass för de de olika boxarna detta är box3 som har en header 1 och lite text om mig-->
+            <h1>About me:</h1>
+            <!-- Header 1 hudvudrukbrik, rubrik nivå 1-->
+            <br />
+            <!-- break, infogar radbryte-->
+            <!--paragraf, text som visas på sidan-->
+            <p>
+              My name is Claudia Kolitas, I love creating products with an idea
+              and then realizing it using color and shape. I have a great
+              interest in technology, form and speed. My interests are to be
+              with family friends.
+            </p>
+            <!-- sluttagg paragraf, text som visas på sidan-->
+          </div>
+          <!-- slut tagg för box3-->
+          <div class="rad4">
+            <!-- start klass för de de olika boxarna detta är box4 som har en header 1 och lite text om mig-->
+          </div>
+          <!-- slut tagg för box4-->
+        </div>
+        <!-- slut tagg för profil-->
+      </section>
+      <!-- slut tagg för sektion-->
       <br />
       <!-- break, infogar radbryte-->
-      <div class="profil">
-        <!-- klass för att skapa flexbox-->
-        <div class="rad1">
-          <!-- klass för de de olika boxarna detta är box1 som man sen anropar i css för positionering och färg-->
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <!-- div, är till för att separera olika viktiga element från varandra, den syns inte men du bestämmer vad du vill stoppa in i den-->
+      <div class="row">
+        <!-- divklasseen för att kunna skapa strukturen för boxen-->
+        <div class="column">
+          <!-- klass för de ytre runt boxen i css för positionering och färg-->
+          <div class="card">
+            <!-- första boxen (card) innehåller header element samt paragraf element.-->
+            <h3>Personal characteristics</h3>
+            <!-- Header 3 hudvudrukbrik, rubrik nivå 3 start och sluttagg placerad brevid varandra-->
+            <p>- Driven, - Helpful</p>
+            <!-- paragraf text start och slut tagg-->
+            <p>- Iinclusive, - Constructive criticizing</p>
+            <!-- paragraf text start och slut tagg-->
+            <p>- Always developing</p>
+            <!-- paragraf text start och slut tagg-->
+          </div>
+          <!-- sluttagg för klass card-->
         </div>
-        <!-- sluttagg för box 1-->
-        <div class="rad2">
-         <!-- klass för de de olika boxarna detta är box2 som man sen anropar i css för positionering och färg-->
-         <!--- start img tagg för att kunna placera en bild inom boxen samt använda sig av en ram och beskära bilden rund i css-->
-          <img
-            src="images/38875558_10156749279673130_3733047155477184512_n.jpg"
-            alt="Bild på Claudia"
-            style="width: 300px"/>
-          <!-- slut tagg för bilden-->
+        <!-- sluttagg för klass column-->
+        <div class="column">
+          <!-- klass för de ytre runt boxen i css för positionering och färg-->
+          <div class="card">
+            <!-- första boxen (card) innehåller header element samt paragraf element.-->
+            <h3>Education</h3>
+            <!-- Header 3 hudvudrukbrik, rubrik nivå 3 start och sluttagg placerad brevid varandra-->
+            <p>Cybergymnasiet: Media with photogrphy</p>
+            <!-- paragraf text start och slut tagg-->
+            <p>Chas academy: UX-Designer with requirements analysis</p>
+            <!-- paragraf text start och slut tagg-->
+            <p>Always wanting to learn more.</p>
+            <!-- paragraf text start och slut tagg-->
+          </div>
+          <!-- div sluttagg på klassen card-->
         </div>
-        <!-- sluttagg för box2-->
-        <div class="rad3">
-        <!-- start klass för de de olika boxarna detta är box3 som har en header 1 och lite text om mig-->
-          <h1> About me:</h1> 
-          <!-- Header 1 hudvudrukbrik, rubrik nivå 1-->
-          <br>
-          <!-- break, infogar radbryte-->
-           <!--paragraf, text som visas på sidan-->
-          <p> My name is Claudia Kolitas, I love creating products with an idea and then realizing it using color and shape. 
-         I have a great interest in technology, form and speed. My interests are to be with family friends.</p>
-         <!-- sluttagg paragraf, text som visas på sidan-->
-        </div>
-        <!-- slut tagg för box3-->
-        <div class="rad4">
-     <!-- start klass för de de olika boxarna detta är box4 som har en header 1 och lite text om mig-->
-        </div>
-         <!-- slut tagg för box4-->
-      </div>
-     <!-- slut tagg för profil-->
-    </section>
-     <!-- slut tagg för sektion-->
-    <br />
-   <!-- break, infogar radbryte-->
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-<!-- div, är till för att separera olika viktiga element från varandra, den syns inte men du bestämmer vad du vill stoppa in i den-->
-<div class="row">
-  <!-- divklasseen för att kunna skapa strukturen för boxen-->
-  <div class="column">
-   <!-- klass för de ytre runt boxen i css för positionering och färg-->
-    <div class="card">
-      <!-- första boxen (card) innehåller header element samt paragraf element.-->
-      <h3>Personal characteristics</h3>
-      <!-- Header 3 hudvudrukbrik, rubrik nivå 3 start och sluttagg placerad brevid varandra-->
-      <p>- Driven, - Helpful</p>
-      <!-- paragraf text start och slut tagg-->
-      <p>- Iinclusive, - Constructive criticizing</p>
-      <!-- paragraf text start och slut tagg-->
-      <p>- Always developing</p>
-      <!-- paragraf text start och slut tagg-->
-    </div>
-    <!-- sluttagg för klass card-->
-  </div>
-  <!-- sluttagg för klass column-->
-  <div class="column">
-<!-- klass för de ytre runt boxen i css för positionering och färg-->
-    <div class="card">
-      <!-- första boxen (card) innehåller header element samt paragraf element.-->
-      <h3>Education</h3>
-     <!-- Header 3 hudvudrukbrik, rubrik nivå 3 start och sluttagg placerad brevid varandra-->
-      <p>Cybergymnasiet: Media with photogrphy</p>
-      <!-- paragraf text start och slut tagg-->
-      <p>Chas academy: UX-Designer with requirements analysis</p>
-      <!-- paragraf text start och slut tagg-->
-      <p>Always wanting to learn more.</p>
-      <!-- paragraf text start och slut tagg-->
-    </div>
-   <!-- div sluttagg på klassen card-->
-  </div>
-<!-- div sluttagg på klassen column-->
-    <br />
-    <!-- break, infogar radbryte-->
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <div class="footer1">
-      <!-- klassen footer1 anorpas i css för utseende för flexboxden-->
-      <div class="textfoot">
-      <!-- klassen textfoot anorpas i css för flexboxens utseende->
+        <!-- div sluttagg på klassen column-->
+        <br />
+        <!-- break, infogar radbryte-->
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <div class="footer1">
+          <!-- klassen footer1 anorpas i css för utseende för flexboxden-->
+          <div class="textfoot">
+            <!-- klassen textfoot anorpas i css för flexboxens utseende->
         <!-divklasseen för att kunna skapa strukturen för boxen-->
-        <div class="fot1">
-          <!--- första klassen för 1 boxen (fot1) i boxen ligger paragrafen nedan-->
-          <p> Claudia Daphne Alexandra Kolitas</p>
-        <!-- paragraf text start och slut tagg-->
-        </div>
-        <!-- slutdiven för fot1-->
-        <div class="fot2"> 
-          <!--andra klassen för box2 (fot2)-->
-          <p> Är du intresserad av ett sammarbete,
-            klicka på contact och skicka iväg ett mail till mig.</p>  
-          <!-- paragraf text start och slut tagg-->
+            <div class="fot1">
+              <!--- första klassen för 1 boxen (fot1) i boxen ligger paragrafen nedan-->
+              <p>Claudia Daphne Alexandra Kolitas</p>
+              <!-- paragraf text start och slut tagg-->
             </div>
-          <!-- slutdivenför fot2-->
+            <!-- slutdiven för fot1-->
+            <div class="fot2">
+              <!--andra klassen för box2 (fot2)-->
+              <p>
+                Är du intresserad av ett sammarbete, klicka på contact och
+                skicka iväg ett mail till mig.
+              </p>
+              <!-- paragraf text start och slut tagg-->
+            </div>
+            <!-- slutdivenför fot2-->
+          </div>
+          <!--- slut tagg på diven-->
         </div>
         <!--- slut tagg på diven-->
       </div>
       <!--- slut tagg på diven-->
-      </div>
-      <!--- slut tagg på diven-->
     </body>
-  <!-- här slutar taggen på bodyn-->
+    <!-- här slutar taggen på bodyn-->
   </body>
   <!-- här slutar taggen på bodyn-->
 </html>
