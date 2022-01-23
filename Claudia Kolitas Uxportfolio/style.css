@@ -1,22 +1,24 @@
 *{
   box-sizing: border-box;
-}
-html {
-  height: 700px;
-}
-body {
-  margin:0;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
   font-family: Arial, Helvetica, sans-serif;
+
 }
-body.home-page {
+
+.home-page {
   background: url("images/quaritsch-photography-3xQ65cknLPk-unsplash.jpg") 
   no-repeat;
+  margin:0px;
   background-position: center;
   background-repeat: non-repeat;
   background-size: cover;
 }
 .other-page {
   background: url("images/nathan-dumlao-GkyrU8Olw2c-unsplash.jpg");
+  margin:0px;
   background-size: cover;
   background-position: center;
   font-family: Arial, Helvetica, sans-serif;
@@ -48,18 +50,18 @@ Header {
   margin-left: auto;
   margin-right: auto;
   width: 1024px;
-  padding-top: 10px;
   padding-bottom: 10px;
   
 }
 h1 {
-  font-size: 60px;
+  font-size: 50px;
   font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
 }
 h2 {
   font-size: 30px;
   font-family: Arial, Helvetica, sans-serif;
-  text-align: left;
+  text-align: center;
   padding-left: 350px;
 }
 .h3{
@@ -84,8 +86,8 @@ nav {
 
 footer {
   height: 10px;
-  padding-top: 12px;
-  padding-bottom: 12px;
+  padding-top: 45px;
+  padding-bottom: 45px;
 }
 
 .box1 {
@@ -158,7 +160,7 @@ a {
   flex: 1;
   padding: 30px;
   padding-bottom: 40px;
-  background-color: rgba(255, 255, 255, 0);
+  background-color: rgba(255, 255, 255, 0.466);
   font-size: 15px;
   border-right: 3px solid darkslategray;
   border-bottom: 3px solid darkslategray;
@@ -179,4 +181,72 @@ img {
   background-color: darkslategray;
   padding:10px;
   text-align: center;
+}
+
+.knapp{
+  display:flex;
+  justify-content:space-evenly;
+  background-color: white;
+  font-size: 30px;
+  margin: 0;
+  position: absolute;
+  top: 55%;
+  left: 46%;
+  border: 2px solid darkslategray;
+  padding: 12px 24px;
+  cursor: pointer;
+  border-radius: 24px;
+}
+.knapp1{
+  border-color: white;
+  color: darkslategray;
+}
+
+.textfoot{
+  display: flex;
+}
+
+.fot1{
+  
+  flex: 1;
+  padding: 10px;
+  background-color: darkslategray;
+  color:white;
+  border-right: 0px solid;
+}
+
+.fot2{
+
+  flex: 1;
+  padding: 10px;
+  background-color:darkslategray;
+  color: white;
+  border-right: 0px solid;
+}
+.column {
+  float: left;
+  width: 50%;
+  padding: 0px 10px;
+}
+
+.row {margin: 0 -5px;}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 10px;
+  text-align: left;
+  background-color: #f1f1f186;
 }
