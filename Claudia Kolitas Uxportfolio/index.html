@@ -29,11 +29,14 @@
         <!-- a= typ av element, href=är för att kunna länka," här är länken till första sidan som heter about", namnet som visas på hemsidan så man kan trycka för att navigeras, </a> är slut taggen för att stänga elemenet -->
         <a href="page2.html">Work</a>
         <!-- a= typ av element, href=är för att kunna länka," här ligger själva länken till sidan work", namnet som visas på hemsidan så man kan trycka för att navigeras, </a> är slut taggen för att stänga elemenet -->
-        <a href="mailto:Claudia.Kolitas@chasacademy.se?Subject=Offert"
-          >Contact</a> <!-- för att skapa en länk till mitt mailkonto, så man kan mejla mig med en sluttagg </a>-->
-        <a href="#">Linkedin</a>
-        <a href="#">Instagram</a>
+        <a href="mailto:Claudia.Kolitas@chasacademy.se?Subject=Ska vi team up?"
+          >Contact</a> <!-- länk till min mejl med subjekt ska vi team up?, så användaren kan mejla mig när de trycker på contact</a>-->
+        <a href="https://www.linkedin.com/in/claudia-kolitas/">Linkedin</a>
+        <!-- a= typ av element, href=är för att kunna länka," länken till min profil på Linkedin", namnet som visas på hemsidan så man kan trycka för att navigeras, </a> är slut taggen för att stänga elemenet -->
+        <a href="https://www.instagram.com/claudiakolitas/">Instagram</a>
+        <!-- a= typ av element, href=är för att kunna länka,"länken till min profil på Instagram", namnet som visas på hemsidan så man kan trycka för att navigeras, </a> är slut taggen för att stänga elemenet -->
       </div>
+      <!-- slutdiv för klassen navBar-->
       <div></div><!-- är till för att separera olika viktiga element från varandra, den syns inte men du bestämmer vad du vill stoppa in i den-->
       <header>
         <!-- allt som ska vara i sidhuvet-->
@@ -57,14 +60,15 @@
           <br />
           <br />
           <br />
-          <sektion> <!-- grupperar samman en del av dokumentet-->
-            <h1>Claudia Kolitas</h1>
-            <!-- Header 1 hudvudrukbrik, rubrik nivå 1-->
-            <br />
-            <p>UX-Designer with requirements analysis</p>
-            <!--paragraf, text som visas på sidan-->
-            <p>to see my portfolio klick on the button down below</p>
-             <!--text-->
+          <sektion> 
+          <!-- grupperar samman en del av dokumentet-->
+          <h1>Claudia Kolitas</h1>
+          <!-- Header 1 hudvudrukbrik, rubrik nivå 1 start och sluttagg placerad brevid varandra-->
+          <br />
+          <p>UX-Designer with requirements analysis</p>
+          <!--paragraf, text som visas på sidan med en start och slut tagg-->
+          <p> Welcome to my page, to see my portfolio klick on the button down below</p>
+          <!--paragraf, text som visas på sidan med en start och slut tagg-->
           </sektion> 
           <!-- slut tagg för sektion-->
           </main>
@@ -76,15 +80,15 @@
       <br />
       <br />
       <button class="knapp">
-        <!-- en knapp i ett formulär med en klass som man anropar i css-->
-        <div class="knapp1">
-          <!-- divklass för att anopa det i css och ändra i färg form och plats-->
-          <a href="page2.html">Work</a>
-         <!-- a= typ av element, href=är för att kunna länka," länken till work sidan", namnet som visas på hemsidan så man kan trycka för att navigeras, </a> är slut taggen för att stänga elemenet -->
-        </div> 
-        <!-- sluttagg på klassen-->
+        <!-- start button, en knapp i ett formulär med en klass som man anropar i css-->
+      <div class="knapp1">
+        <!-- divklass för att anopa det i css och ändra i färg form och plats-->
+      <a href="page2.html">Work</a>
+        <!-- a= typ av element, href=är för att kunna länka," länken till work sidan", namnet som visas på hemsidan så man kan trycka för att navigeras, </a> är slut taggen för att stänga elemenet -->
+      </div> 
+        <!-- div sluttagg på klassen knapp1-->
       </button>
-      <!-- sluttagg på knappen/klassen-->
+      <!-- button sluttagg på klassen knapp-->
       <br />
       <br />
       <br />
@@ -125,27 +129,31 @@
       <br />
       <!-- divklass för att skapa en footer längst ned på sidan med information-->
       <div class="footer1">
+       <!-- klassen footer1 anorpas i css för utseende för flexboxden-->
         <div class="textfoot">
-          <div class="fot1">
-            <h4>Claudia Daphne Alexandra Kolitas</h4>
-            <!-- header 4, rubriknivån 4, start och slut tagg-->
-          </div>
+        <!-- klassen textfoot anorpas i css för flexboxens utseende->
+        <!-divklasseen för att kunna skapa strukturen för boxen-->
+        <div class="fot1">
+        <!--- första klassen för 1 boxen (fot1) i boxen ligger paragrafen nedan-->
+        <h4>Claudia Daphne Alexandra Kolitas</h4>
+        <!-- header 4, rubriknivån 4, start och slut tagg-->
+        </div>
           <!-- sluttagg på fot1-->
           <div class="fot2">
             <!-- start div tagg för klass fot2-->
             <p>
-              Är du intresserad av ett sammarbete klicka på contact och skicka
-              iväg ett mail till mig.
+              Är du intresserad av ett sammarbete,
+              klicka på contact och skickaiväg ett mail till mig.
             </p>
             <!-- paragraf text start och slut tagg-->
           </div>
-          <!--- slut tagg på diven-->
+          <!--- slut tagg på fot2-->
         </div>
-        <!--- slut tagg på diven-->
+        <!--- slut tagg på textfoot-->
       </div>
-      <!--- slut tagg på diven-->
+      <!--- slut tagg på footer1-->
     </div>
-    <!--- slut tagg på diven-->
+    <!--- slut tagg på homepage-->
   </body>
   <!-- här slutar taggen på bodyn-->
 </html>
